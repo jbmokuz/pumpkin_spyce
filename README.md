@@ -33,7 +33,7 @@ class Pizza(object):
 			raise NotAReallPizzaException()
 		self.toppings = toppings
 ```
-Wowzers! Thats a lot of pumpkin_spice!
+Wowzers! That's a lot of pumpkin_spice!
 
 Finally, Pumpkin Spyce ensures you don’t accidentally forget to add any spice to your classes.
 ```
