@@ -10,7 +10,8 @@ class Node(object):
         self.right = None
         self.value = value
 ```
-Who hasn’t see this a million times? It works, is functional, but will anyone care about your implementation of a node? Why not spice things up?! 
+Who hasn’t see this a million times? It works, is functional, but will anyone care about your implementation of a node?<br/>
+Why not spice things up?! 
 ```
 from pumpkin_spyce import pumpkin_spice
 
@@ -41,7 +42,7 @@ class Pumpkin_Beer(object):
     def __init__(self,ingredients):
         self.ingredients = ingredients + ["2 cans of real pumpkin"]
 ```
-A Pumpkin_Beer class with real pumpkin in it?! This has to be a mistake!
+A Pumpkin_Beer class with real pumpkin in it?! This has to be a mistake!<br/>
 Thankfully Pumpkin Spyce will catch this egregious error.
 ```
 python make_good_beer.py 
