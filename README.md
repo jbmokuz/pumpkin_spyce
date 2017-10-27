@@ -1,8 +1,8 @@
 # Pumpkin Spyce
-A python library to add pumpkin spice to objects. Please don’t expect to much, this library is quite disappointing, just like pumpkin spice! It also adds unnecessary cost and ruins perfectly good ~~coffee~~ classes. Contains %0 pumpkin.
+A python library to add pumpkin spice to objects. Please don’t expect to much, this library is quite disappointing, just like pumpkin spice! It also adds unnecessary cost, contains no actual pumpkin and ruins perfectly good ~~coffee~~ classes.
 
 ## How to use
-Say you are making some Node class for a binary tree you are making.
+Say you are making some Node class for a binary tree.
 ```
 class Node(object):
     def __init__(self,value):
@@ -41,7 +41,8 @@ class Pumpkin_Beer(object):
     def __init__(self,ingredients):
         self.ingredients = ingredients + ["2 cans of real pumpkin"]
 ```
-A Pumpkin_Beer class with real pumpkin in it?! This has to be a mistake! Thankfully Pumpkin Spyce will catch this egregious error.
+A Pumpkin_Beer class with real pumpkin in it?! This has to be a mistake!
+Thankfully Pumpkin Spyce will catch this egregious error.
 ```
 python make_good_beer.py 
 NoSpice Exception
